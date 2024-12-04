@@ -11,7 +11,6 @@ const App = () => {
       <Routes>
         <Route path="/panorama-home" element={<HomePage />} />
         <Route path="/panorama-3d-tour" element={<FullScreenIframe />} />
-        <p>wertyuio</p>
       </Routes>
     </Router>
   );
