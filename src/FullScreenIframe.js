@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from './logo.png';
+import './FullScreenIframe.css';
 
 const FullScreenIframe = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -23,9 +24,9 @@ const FullScreenIframe = () => {
           }}
         >
           <img 
-            src={logo} 
+            src={logo}
+            className='img-fluid'
             alt="Company Logo" 
-            style={{ width: '150px', height: 'auto', cursor: 'pointer' }}
           />
         </a>
       )}
