@@ -5,7 +5,7 @@ const FullScreenIframe = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const handleIframeLoad = () => {
-    setIsLoaded(true); // Показываем логотип, когда iframe загружен
+    setIsLoaded(true);
   };
 
   return (
