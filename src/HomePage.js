@@ -14,7 +14,7 @@ const Logo = () => {
       rel="noopener noreferrer"
       className="d-block mb-4"
     >
-      <img src={logo} alt="Logo" className="img-fluid" style={{ width: "150px" }} />
+      <img src={logo} alt="Logo" className="img-fluid"/>
     </a>
   );
 };
@@ -55,6 +55,7 @@ const HomePage = () => {
               rel="noopener noreferrer"
               className="address-link"
             >
+              👉
               <i className="fas fa-map-marker-alt"></i> ул. Токтогула 125/1, БЦ «Avangard» Tower A
             </a>
             <br />
@@ -64,6 +65,7 @@ const HomePage = () => {
               rel="noopener noreferrer"
               className="address-link"
             >
+              👉
               <i className="fas fa-map-marker-alt"></i> ул. Токомбаева 53/1 (гипермаркет «Globus»)
             </a>
             <br />
@@ -73,20 +75,24 @@ const HomePage = () => {
               rel="noopener noreferrer"
               className="address-link"
             >
+              👉
               <i className="fas fa-map-marker-alt"></i> ул. Токомбаева/Куттубаева, ЖК «Елисейские Поля»
             </a>
           </p>
           <p className="mt-3">
+          👉
             📧{" "}
             <a href="mailto:sales@avangardstyle.kg" className="address-link">
               sales@avangardstyle.kg
             </a>
             <br />
+            👉
             🌐{" "}
             <a href="http://www.avangardstyle.kg" className="address-link">
               www.avangardstyle.kg
             </a>
             <br />
+            👉
             📞{" "}
             <a href="tel:+996997007007" className="address-link">
               +996 997 007 007

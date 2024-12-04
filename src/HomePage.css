@@ -2,9 +2,10 @@
 .email-link,
 .web-link,
 .phone-link {
-  color: white;
+  color: #f8f9fa;
   font-size: 18px;
   text-decoration: none;
+  font-weight: bold; 
   transition: color 0.3s, text-decoration 0.3s;
 }
 
@@ -13,7 +14,23 @@
 .web-link:hover,
 .phone-link:hover {
   color: #FFD700;
+  font-weight: bold; 
   text-decoration: underline;
 }
 
+.img-fluid{
+  width: 150px;
+}
+
+@media (max-width: 768px) {
+  .img-fluid{
+    width: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .img-fluid{
+    width: 100px;
+  }
+}
 
