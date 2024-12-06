@@ -101,7 +101,7 @@ const HomePage = () => {
           <div className="d-flex justify-content-center gap-3 mt-4">
             <button
               className="btn btn-success"
-              onClick={() => window.open("https://wa.me/0997007007", "_blank")}
+              onClick={() => window.open("https://wa.me/+996997007007", "_blank")}
             >
               WhatsApp
             </button>
