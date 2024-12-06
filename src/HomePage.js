@@ -58,7 +58,7 @@ const HomePage = () => {
               )
             }
           >
-            <i className="fas fa-map-marker-alt"></i> ул. Токтогула 125/1, БЦ «Avangard» Tower A
+            <i className="fas fa-map-marker-alt"></i> ул. Токтогула 125/1
           </button>
           <br />
           <button
@@ -70,7 +70,7 @@ const HomePage = () => {
               )
             }
           >
-            <i className="fas fa-map-marker-alt"></i> ул. Токомбаева 53/1 (гипермаркет «Globus»)
+            <i className="fas fa-map-marker-alt"></i> ул. Токомбаева 53/1
           </button>
           <br />
           <button
@@ -82,7 +82,7 @@ const HomePage = () => {
               )
             }
           >
-            ф<i className="fas fa-map-marker-alt"></i> ул. Токомбаева/Куттубаева, ЖК «Елисейские Поля»
+            <i className="fas fa-map-marker-alt"></i> ул. Токомбаева/Куттубаева
           </button>
         </p>
           <p className="mt-3">
