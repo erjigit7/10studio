@@ -46,39 +46,45 @@ const HomePage = () => {
 
         {/* Офисы продаж */}
         <div className="mt-4">
-          <h2 className="h4">ОФИСЫ ПРОДАЖ</h2>
-          <p>
-            <br />
-            <a
-              href="https://2gis.kg/bishkek/firm/70000001030789847?m=74.597399%2C42.872791%2F16"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="address-link"
-            >
-              👉
-              <i className="fas fa-map-marker-alt"></i> ул. Токтогула 125/1, БЦ «Avangard» Tower A
-            </a>
-            <br />
-            <a
-              href="https://2gis.kg/bishkek/search/%D1%83%D0%BB.%20%D0%A2%D0%BE%D0%BA%D0%BE%D0%BC%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0%2053%2F1/firm/70000001019836817?m=74.616665%2C42.823358%2F18.6"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="address-link"
-            >
-              👉
-              <i className="fas fa-map-marker-alt"></i> ул. Токомбаева 53/1 (гипермаркет «Globus»)
-            </a>
-            <br />
-            <a
-              href="https://2gis.kg/bishkek/search/%D0%95%D0%BB%D0%B8%D1%81%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D0%9F%D0%BE%D0%BB%D1%8F/firm/70000001060866566/74.620528%2C42.814776?m=74.623427%2C42.816685%2F16.81"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="address-link"
-            >
-              👉
-              <i className="fas fa-map-marker-alt"></i> ул. Токомбаева/Куттубаева, ЖК «Елисейские Поля»
-            </a>
-          </p>
+        <h2 className="h4">ОФИСЫ ПРОДАЖ</h2>
+        <p>
+          <br />
+          <button
+            className="btn btn-success mb-2"
+            onClick={() =>
+              window.open(
+                "https://2gis.kg/bishkek/firm/70000001030789847?m=74.597399%2C42.872791%2F16",
+                "_blank"
+              )
+            }
+          >
+            <i className="fas fa-map-marker-alt"></i> ул. Токтогула 125/1, БЦ «Avangard» Tower A
+          </button>
+          <br />
+          <button
+            className="btn btn-success mb-2"
+            onClick={() =>
+              window.open(
+                "https://2gis.kg/bishkek/search/%D1%83%D0%BB.%20%D0%A2%D0%BE%D0%BA%D0%BE%D0%BC%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0%2053%2F1/firm/70000001019836817?m=74.616665%2C42.823358%2F18.6",
+                "_blank"
+              )
+            }
+          >
+            <i className="fas fa-map-marker-alt"></i> ул. Токомбаева 53/1 (гипермаркет «Globus»)
+          </button>
+          <br />
+          <button
+            className="btn btn-success mb-2"
+            onClick={() =>
+              window.open(
+                "https://2gis.kg/bishkek/search/%D0%95%D0%BB%D0%B8%D1%81%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D0%9F%D0%BE%D0%BB%D1%8F/firm/70000001060866566/74.620528%2C42.814776?m=74.623427%2C42.816685%2F16.81",
+                "_blank"
+              )
+            }
+          >
+            ф<i className="fas fa-map-marker-alt"></i> ул. Токомбаева/Куттубаева, ЖК «Елисейские Поля»
+          </button>
+        </p>
           <p className="mt-3">
           👉
             📧{" "}
