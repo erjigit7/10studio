@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "./logo.png";
-import backgroundImage from "./1-1.jpg";
+import backgroundImage from "./MOSKVA_SITI-1-15-16_page-0002.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./HomePage.css";
@@ -26,7 +26,7 @@ const HomeMoskva = () => {
     <div
       className="vh-100 d-flex flex-column justify-content-center align-items-center text-white"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://static.tildacdn.one/tild3837-3139-4232-b866-393234333039/13.jpg)`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${backgroundImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
