@@ -26,7 +26,7 @@ const HomeMoskva = () => {
     <div
       className="vh-100 d-flex flex-column justify-content-center align-items-center text-white"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${backgroundImage})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://static.tildacdn.one/tild3837-3139-4232-b866-393234333039/13.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
