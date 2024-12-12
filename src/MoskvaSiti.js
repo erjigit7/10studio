@@ -30,8 +30,6 @@ const MoskvaSiti = () => {
           />
         </a>
       )}
-
-      {/* iframe, с обработчиком загрузки */}
       <iframe
         src="https://my.treedis.com/tour/0963850a"
         style={{ width: '100%', height: '100%', border: 'none' }}
